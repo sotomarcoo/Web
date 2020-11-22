@@ -1,0 +1,68 @@
+/*Media Queries*/
+
+@media (min-width: 1200px) {
+    .header {
+        background-color: rgb(156, 156, 156);
+    }
+    .sobremi2 {
+        font-size: 20px;
+    }
+    .sobremi1 {
+        font-size: 45px;
+    }
+    .programacion h1 {
+        font-size: 50px;
+    }
+    
+    .programacion h1 {
+        font-size: 45px;
+    }
+    .learn {
+        border-top: none;
+    }
+    .programacion {
+        height: 300px;
+    }
+    .textprogram {
+        font-size: 23px;
+    }
+    .programacion {
+        height: 350px;
+    }
+
+    .hamburger {
+        display: none;
+    }
+    .ulMenu {
+        transform: translate(0,0);
+        background-color: transparent;
+        padding-top: none;
+        display: flex;
+        justify-content: space-between;
+        width: 50%;
+        margin-left: 600px;
+        padding-top: 10px;
+    }
+
+    .ulMenu li a {
+        padding:0;
+        font-size: 15px;
+        margin: 0;
+        color: black;
+        height: 30px;
+        align-items: center;
+        font-weight: bold;
+        border-radius: 10px;
+    }
+    .ulMenu li {
+        margin-top: 0px;
+        display: inline-flex;
+        font-size: 20px;
+        color: black;
+    }
+    .ulMenu li a:hover {
+        background-color: rgb(104, 104, 104);
+        color: white;
+        transition-duration: 1s;
+    }
+}
